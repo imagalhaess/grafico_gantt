@@ -1,6 +1,10 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import pandas as pd
+
+url = "https://github.com/imagalhaess/grafico_gantt.git"
+df = pd.read_excel(url, header=0)
 
 # ⬇️ Carregar dados do cronograma
 caminho_arquivo = "dados/cronograma.xlsx"
